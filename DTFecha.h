@@ -4,11 +4,17 @@
 
 #ifndef DTFECHA_H
 #define DTFECHA_H
-
+#include <iostream>
 
 
 class DTFecha {
-
+private:
+    int anio;
+    int mes;
+    int dia;
+public:
+    ~DTFecha();
+    DTFecha(int anio, int mes, int dia);
 };
 
 
