@@ -18,7 +18,8 @@ private:
     string email;
     list<Informacion*> informacionGuardada;
 public:
-   Estudiante(string nombre, string ci, string email);
+    Estudiante();
+   Estudiante(string nombre, int ci, string email);
    virtual ~Estudiante();
    void guardarInformacion(Informacion* info);
    virtual string toString()=0;

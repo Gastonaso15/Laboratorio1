@@ -13,6 +13,7 @@ private:
     int mes;
     int dia;
 public:
+    DTFecha();
     ~DTFecha();
     DTFecha(int anio, int mes, int dia);
 };

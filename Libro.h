@@ -6,18 +6,19 @@
 #define LIBRO_H
 #include <string>
 #include <iostream>
+#include "Informacion.h"
 using namespace std;
 
-class Libro {
+class Libro:public Informacion {
 private:
     string Titulo;
     string Autores;
     string Resumen;
 public:
     Libro();
-   // ~Libro();
+    ~Libro();
     Libro(string Titulo, string Autores, string Resumen);
-    string toString();
+    string toString()override;
 };
 
 

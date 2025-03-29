@@ -3,14 +3,13 @@
 //
 
 #include "PaginaWeb.h"
-#include<iostream>
 using namespace std;
 PaginaWeb::PaginaWeb() {
 
 }
 
 string PaginaWeb::toString() {
-
+    return this->titulo, this->link, this->text;
 }
 PaginaWeb::PaginaWeb(string titulo, string link, string text) {
     this->titulo=titulo;

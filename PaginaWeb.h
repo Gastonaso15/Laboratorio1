@@ -5,9 +5,11 @@
 #ifndef PAGINAWEB_H
 #define PAGINAWEB_H
 #include <string>
+
+#include "Informacion.h"
 using namespace std;
 
-class PaginaWeb {
+class PaginaWeb: public Informacion {
 private:
     string titulo;
     string link;
@@ -15,7 +17,7 @@ private:
 public:
     PaginaWeb();
     ~PaginaWeb();
-    string toString();
+    string toString()override;
     PaginaWeb(string titulo, string link, string text);
 };
 

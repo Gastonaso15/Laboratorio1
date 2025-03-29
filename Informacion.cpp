@@ -3,6 +3,7 @@
 //
 
 #include<iostream>
+#include "DTFecha.h"
 #include "Informacion.h"
 using namespace std;
 
@@ -19,9 +20,9 @@ Informacion::Informacion(int identificador, DTFecha fecha){
     this->fecha=fecha;
 }
 
-string Informacion::toString(){
+//string Informacion::toString(){
 
-}
+//}
 
 void Informacion::setIdentificador(int id) {
     this->identificador=id;

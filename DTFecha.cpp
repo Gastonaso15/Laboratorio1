@@ -5,6 +5,9 @@
 #include "DTFecha.h"
 using namespace std;
 
+DTFecha::DTFecha() {
+
+}
 DTFecha::~DTFecha() {
     cout <<"Fecha eliminada"<<endl;
 }

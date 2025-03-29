@@ -6,17 +6,18 @@
 #define CHATGPT_H
 #include <string>
 #include<iostream>
+#include "Informacion.h"
 using namespace std;
 
 
-class chatGPT {
+class chatGPT:public Informacion {
 private:
     string Pregunta;
     string Respuesta;
     public:
     chatGPT();
     ~chatGPT();
-    string toString();
+    string toString()override;
     chatGPT(string Pregunta, string Respuesta);
 
 };
