@@ -5,7 +5,7 @@
 #include "chatGPT.h"
 #include <string>
 using namespace std;
-chatGPT::chatGPT() {
+/*chatGPT::chatGPT() {
 
 }
 string chatGPT::toString() {

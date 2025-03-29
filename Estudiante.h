@@ -4,10 +4,10 @@
 
 #ifndef ESTUDIANTE_H
 #define ESTUDIANTE_H
-#include <iostream>
+
+#include <string>
 #include "Informacion.h"
 using namespace std;
-#include<string>
 #include<list>
 
 
@@ -22,7 +22,7 @@ public:
    virtual ~Estudiante();
    void guardarInformacion(Informacion* info);
    virtual string toString()=0;
-   list<Informacion*> getInformacionGuardada(DTFecha fecha) const;
+   //list<Informacion*> getInformacionGuardada(DTFecha fecha) const;
 
 };
 

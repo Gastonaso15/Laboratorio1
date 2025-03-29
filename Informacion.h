@@ -4,11 +4,11 @@
 
 #ifndef INFORMACION_H
 #define INFORMACION_H
-#include "DTinfoEstudiante.h"
 
 using namespace std;
 #include <string>
-#include "Estudiante.h"
+#include <iostream>
+
 #include "DTFecha.h"
 
 //class Estudiante;

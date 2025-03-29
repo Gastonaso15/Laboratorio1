@@ -5,18 +5,19 @@
 #ifndef LIBRO_H
 #define LIBRO_H
 #include <string>
-
+#include <iostream>
+using namespace std;
 
 class Libro {
 private:
     string Titulo;
-    set string Autores;
+    string Autores;
     string Resumen;
 public:
     Libro();
-    ~Libro();
+   // ~Libro();
     Libro(string Titulo, string Autores, string Resumen);
-    toString();
+    string toString();
 };
 
 

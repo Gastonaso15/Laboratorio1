@@ -5,6 +5,7 @@
 #ifndef CHATGPT_H
 #define CHATGPT_H
 #include <string>
+#include<iostream>
 using namespace std;
 
 

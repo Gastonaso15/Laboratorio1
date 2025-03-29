@@ -3,9 +3,9 @@
 //
 
 #include "PaginaWeb.h"
-#include <string>
+#include<iostream>
 using namespace std;
-PaginaWeb::PaginaWeb() {
+/*PaginaWeb::PaginaWeb() {
 
 }
 
