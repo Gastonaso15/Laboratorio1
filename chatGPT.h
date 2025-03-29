@@ -4,10 +4,19 @@
 
 #ifndef CHATGPT_H
 #define CHATGPT_H
-
+#include <string>
+using namespace std;
 
 
 class chatGPT {
+private:
+    string Pregunta;
+    string Respuesta;
+    public:
+    chatGPT();
+    ~chatGPT();
+    string toString();
+    chatGPT(string Pregunta, string Respuesta);
 
 };
 
